@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T09:36:05.729523-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:46.669338-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:19:23.971591-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:46.669338-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "KFkTFaL8DQCggPzBBTyLAQ=="
+					"uidString" : "1TC4raL8DQCkRA6gAV7EIQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Pagina de intencion de servir de inicio"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:20:25.792283-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:43.146864-03:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:20:27.321908-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:43.146864-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "gM35sqL8DQCmBPnIAV7EIQ=="
+					"uidString" : "znCCraL8DQCkQ869AV7EIQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[El playground]] "
+				"string" : ""
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:19:29.184322-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:37.590922-03:00"
 					}
 				},
 				"editEmail" : {
@@ -103,14 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:20:10.362675-03:00"
+						"dateAndTimeString" : "2025-10-03T10:18:37.590922-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rOpAsKL8DQClWEpNAV7EIQ=="
+					"uidString" : "qqktraL8DQCkQoQ1AV7EIQ=="
 				},
-				"code" : ""
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -122,7 +125,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-10-03T09:36:05.672323-03:00"
+			"dateAndTimeString" : "2025-10-03T10:18:43.140378-03:00"
 		}
 	},
 	"editEmail" : {
@@ -133,15 +136,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-10-03T10:18:36.286251-03:00"
+			"dateAndTimeString" : "2025-10-03T10:20:05.459185-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pagina de inicio"
+		"title" : "El playground"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "53781215-a2fc-0d00-a07f-ea47053c8b01"
+		"uuid" : "e3d92cad-a2fc-0d00-a441-0e9d015ec421"
 	}
 }
