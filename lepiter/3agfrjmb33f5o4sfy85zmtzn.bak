@@ -42,6 +42,43 @@
 				"string" : "Pagina de intencion de servir de inicio"
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-03T10:20:25.792283-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-05T20:31:41.636661-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gM35sqL8DQCmBPnIAV7EIQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[El playground]] \n[["
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -66,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-03T10:19:46.209767-03:00"
+						"dateAndTimeString" : "2025-10-03T10:20:10.362675-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "rOpAsKL8DQClWEpNAV7EIQ=="
 				},
-				"code" : "[[Playground"
+				"code" : ""
 			}
 		]
 	},
