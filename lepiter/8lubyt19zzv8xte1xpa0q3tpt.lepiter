@@ -66,14 +66,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:31:29.130289-03:00"
+						"dateAndTimeString" : "2025-10-24T02:24:20.816359-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ZZqlAkH+DQCqpNvxC85gkQ=="
 				},
-				"code" : "Object subclass: #DiscussionGraph\n    instanceVariableNames: 'discussions fileName'\n    classVariableNames: ''\n    package: 'GitHubAnalysis'"
+				"code" : "'discussion_sharings.json' asFileReference"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T02:23:41.162246-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T02:24:00.89724-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "U4tTfUL+DQC352QMAS9pxw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "La primera pregunta es: \n1. ¿Con qué frecuencia las conversaciones mencionan tecnologias específicas (GitHub, Python, Dockers, CICD API, UI )?"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -100,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:37:47.383844-03:00"
+						"dateAndTimeString" : "2025-10-24T02:23:23.966478-03:00"
 					}
 				},
 				"uid" : {

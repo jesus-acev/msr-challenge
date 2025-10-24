@@ -66,14 +66,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:31:29.130289-03:00"
+						"dateAndTimeString" : "2025-10-24T02:23:37.635156-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ZZqlAkH+DQCqpNvxC85gkQ=="
 				},
-				"code" : "Object subclass: #DiscussionGraph\n    instanceVariableNames: 'discussions fileName'\n    classVariableNames: ''\n    package: 'GitHubAnalysis'"
+				"code" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T02:23:41.162246-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T02:23:47.96647-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "U4tTfUL+DQC352QMAS9pxw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "La primera pregunta es: "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -100,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:37:47.383844-03:00"
+						"dateAndTimeString" : "2025-10-24T02:23:23.966478-03:00"
 					}
 				},
 				"uid" : {
@@ -168,14 +205,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:49:00.507902-03:00"
+						"dateAndTimeString" : "2025-10-24T01:49:43.758027-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "h5Y2AUL+DQCK9WEuAiBvvw=="
 				},
-				"code" : "aDiscussionGraph technologyMentions."
+				"code" : ""
 			},
 			{
 				"__type" : "textSnippet",
