@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-05T20:31:41.636661-03:00"
+						"dateAndTimeString" : "2025-10-24T02:11:10.414975-03:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[El playground]] \n[["
+				"string" : "[[El playground]] \n[[Leyendo un json]] \n\nPara informe 1 y 2 (unificados)\n[["
 			},
 			{
 				"__type" : "pharoSnippet",
