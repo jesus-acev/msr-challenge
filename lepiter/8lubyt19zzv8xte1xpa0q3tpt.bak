@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T02:23:37.635156-03:00"
+						"dateAndTimeString" : "2025-10-24T02:24:20.816359-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ZZqlAkH+DQCqpNvxC85gkQ=="
 				},
-				"code" : ""
+				"code" : "'discussion_sharings.json' asFileReference"
 			},
 			{
 				"__type" : "textSnippet",
@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T02:23:47.96647-03:00"
+						"dateAndTimeString" : "2025-10-24T02:24:00.89724-03:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "La primera pregunta es: "
+				"string" : "La primera pregunta es: \n1. ¿Con qué frecuencia las conversaciones mencionan tecnologias específicas (GitHub, Python, Dockers, CICD API, UI )?"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -205,14 +205,82 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T01:49:43.758027-03:00"
+						"dateAndTimeString" : "2025-10-24T03:03:50.375687-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "h5Y2AUL+DQCK9WEuAiBvvw=="
 				},
-				"code" : ""
+				"code" : "aDiscussionGraph repositoryNames."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T03:03:59.26285-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T03:04:08.556872-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "89R0DUP+DQCYBIeJBi8NEA=="
+				},
+				"code" : "aDiscussionGraph discussionCount.\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T03:04:27.691994-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T03:11:48.036173-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OKAmD0P+DQCYG/aRBi8NEA=="
+				},
+				"code" : "aDiscussionGraph technologyMentions."
 			},
 			{
 				"__type" : "textSnippet",
