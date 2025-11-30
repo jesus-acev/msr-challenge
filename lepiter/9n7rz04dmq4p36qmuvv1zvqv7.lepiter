@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:03:11.746746-03:00"
+						"dateAndTimeString" : "2025-10-24T10:00:01.169654-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "mHM830P+DQC/9JreDO3pog=="
 				},
-				"code" : "'commit_sharings.json' asFileReference"
+				"code" : "file1:= 'commit_sharings.json' asFileReference.\rdictio:= STONJSON fromString: file1"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -100,14 +100,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:03:53.570145-03:00"
+						"dateAndTimeString" : "2025-10-24T09:23:57.048446-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "NYmI40P+DQCAgk1+DO3pog=="
 				},
-				"code" : "Object subclass: #CommitGraph\n    instanceVariableNames: 'commits fileName'\n    classVariableNames: ''\n    package: 'GitHubAnalysis'"
+				"code" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:24:41.869837-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:24:41.869837-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WGKXXEj+DQCOgeC7DO3pog=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "pharoSnippet",
