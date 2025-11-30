@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:21:22.261813-03:00"
+						"dateAndTimeString" : "2025-11-30T19:11:04.23249-03:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[El playground]] \n[[Leyendo un json]] \n\nPara informe 1 y 2 (unificados)\n\nGeneramos las siguientes preguntas en base al repositorio MSR del desafio\n\n1. ¿Con qué frecuencia las conversaciones mencionan tecnologias específicas (GitHub, Python, Dockers, CICD API, UI )?\nPara dar respuesta empleamos el .json que contenia discusiones\n\t\t[[Discussion]]\t \n\t\t\n2. ¿Que prefijos (fix, add, docs, bugs) de las convenciones de commit son mas comunes en las conversaciones publicas/compartidas?\nPara dar respuesta empleamos el .json que contenia commits\t\t\n\t\t[[Commit]] \n\t\t\n3. "
+				"string" : "[[El playground]] \n[[Leyendo un json]] \n\nPara informe 1 y 2 (unificados)\n\nGeneramos las siguientes preguntas en base al repositorio MSR del desafio\n\n#####1.  ¿Que prefijos (fix, add, docs, bugs) de las convenciones de commit son mas comunes en las conversaciones publicas/compartidas?\nPara dar respuesta empleamos el .json que contenia commits\t\t\n\n#####2. ¿Con qué frecuencia las conversaciones mencionan tecnologias específicas al menos una vez (GitHub, Python, Dockers, CICD API, UI )?\nPara dar respuesta empleamos el .json que contenia discusiones\n\t\t[[Discussion]]2. \n\t\t[[Commit]] \n\t\t\n3. ¿Con qué frecuencia las conversaciones mencionan tecnologias específicas (GitHub, Python, Dockers, CICD API, UI )?\n\n\n\n\n\n#####Nota: \nLa seccion [[Discussion]] formaba parte de la entrega anterior, pero quedo deprecada, para trabajar solo con un tipo de archivo JSON y sacarle provecho al mismo modelo cerado para esa estructura de datos, el archivo **commit_sharing**\n\t\t"
 			},
 			{
 				"__type" : "pharoSnippet",

@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-30T02:05:12.008561-03:00"
+						"dateAndTimeString" : "2025-11-30T02:07:13.636817-03:00"
 					}
 				},
 				"uid" : {
@@ -171,7 +171,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-30T02:05:27.219779-03:00"
+						"dateAndTimeString" : "2025-11-30T02:07:15.746948-03:00"
 					}
 				},
 				"uid" : {
@@ -242,14 +242,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-30T01:31:21.958367-03:00"
+						"dateAndTimeString" : "2025-11-30T19:04:08.178429-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ddWo2y52RFKlw/YJocNFNw=="
 				},
-				"code" : "file1 := 'commit_sharings.json' asFileReference.\ndictio := STONJSON fromString: file1 contents.\n\n"
+				"code" : "file1 := 'commit_sharings.json' asFileReference.\ndictio := STONJSON fromString: file1 contents.\n"
 			},
 			{
 				"__type" : "pharoSnippet",

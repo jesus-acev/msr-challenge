@@ -1,38 +1,36 @@
 Class {
-	#name : 'JsonGraph',
-	#superclass : 'Object',
+	#name : #JsonGraph,
+	#superclass : #Object,
 	#instVars : [
 		'data'
 	],
-	#category : 'MsrChallenge-MSRChallenge-Model',
-	#package : 'MsrChallenge',
-	#tag : 'MSRChallenge-Model'
+	#category : 'MsrChallenge-MSRChallenge-Model'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JsonGraph class >> fileName [
     ^ self new from: fileName
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JsonGraph class >> fromFile: fileName [
     ^ self new from: fileName
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JsonGraph >> data [
     ^ data
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JsonGraph >> data: anObject [
     data := anObject
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JsonGraph >> from: fileName [
     | fileReference jsonString jsonObject |
     
