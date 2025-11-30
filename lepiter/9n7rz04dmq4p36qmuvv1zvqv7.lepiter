@@ -100,14 +100,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T09:23:57.048446-03:00"
+						"dateAndTimeString" : "2025-11-30T02:07:13.636817-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "NYmI40P+DQCAgk1+DO3pog=="
 				},
-				"code" : ""
+				"code" : "Object subclass: #Commit\n    instanceVariableNames: 'sha message author chatgptSharings'\n    classVariableNames: ''\n    package: 'MsrChallenge'.\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -171,48 +171,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:08:16.60853-03:00"
+						"dateAndTimeString" : "2025-11-30T02:07:15.746948-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "N6ob80P+DQCCY0P5DO3pog=="
 				},
-				"code" : "aCommitGraph prefixMentions.\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:04:03.561017-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T04:09:31.770512-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "mQ5K5EP+DQCAi3VKDO3pog=="
-				},
-				"code" : "aCommitGraph := CommitGraph fromFile: 'commit_sharings.json'"
+				"code" : "Object subclass: #CommitGraph\n    instanceVariableNames: 'commits'\n    classVariableNames: ''\n    package: 'MsrChallenge'.\n"
 			},
 			{
 				"__type" : "textSnippet",
@@ -250,6 +216,108 @@
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-29T23:49:07.232431-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T01:31:21.958367-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ddWo2y52RFKlw/YJocNFNw=="
+				},
+				"code" : "file1 := 'commit_sharings.json' asFileReference.\ndictio := STONJSON fromString: file1 contents.\n\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T01:13:22.784581-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T02:00:16.049114-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qw74lY5wTOW6L9t3uxiQow=="
+				},
+				"code" : "graph := CommitGraph loadFromDict: dictio."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T00:32:40.479379-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T02:00:12.797609-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "j/LZYcnIRbGuK1Dvc18myw=="
+				},
+				"code" : "graph := CommitGraph loadFromFile: file1."
 			}
 		]
 	},

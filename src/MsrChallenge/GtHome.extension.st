@@ -1,6 +1,6 @@
-Extension { #name : #GtHome }
+Extension { #name : 'GtHome' }
 
-{ #category : #'*MsrChallenge' }
+{ #category : '*MsrChallenge' }
 GtHome >> msrChallengeSection [
 	<gtHomeSection>
 	^ GtHomeStartPageSection new

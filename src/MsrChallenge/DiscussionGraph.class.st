@@ -1,20 +1,22 @@
 Class {
-	#name : #DiscussionGraph,
-	#superclass : #Object,
+	#name : 'DiscussionGraph',
+	#superclass : 'Object',
 	#instVars : [
 		'discussions',
 		'fileName'
 	],
-	#category : #'MsrChallenge-Model'
+	#category : 'MsrChallenge-Model',
+	#package : 'MsrChallenge',
+	#tag : 'Model'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph class >> fromFile: aFileName [
     "Crea una instancia de DiscussionGraph desde un archivo JSON"
     ^ self new from: aFileName
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> countAllMentionsOf: aTechnology [
     "Cuenta todas las ocurrencias de la tecnología"
     | total techLower |
@@ -43,7 +45,7 @@ DiscussionGraph >> countAllMentionsOf: aTechnology [
     ^ total
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> countDiscussionsContaining: aTechnology [
     "Cuenta en cuántas discusiones aparece al menos una vez"
     | count techLower |
@@ -62,7 +64,7 @@ DiscussionGraph >> countDiscussionsContaining: aTechnology [
     
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> countMentionsOf: aTechnology in: aText [
     "Cuenta las menciones de una tecnología en el texto - VERSIÓN OPTIMIZADA"
     | lowerText lowerTech count startIndex |
@@ -91,7 +93,7 @@ DiscussionGraph >> countMentionsOf: aTechnology in: aText [
     ^ count
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> countTechnology: aTechnology [
     "Cuenta menciones de una tecnología en TODAS las discusiones"
     | total techLower |
@@ -114,19 +116,19 @@ DiscussionGraph >> countTechnology: aTechnology [
     ^ total
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> discussionCount [
     "Retorna el número total de discusiones"
     ^ discussions size
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> discussions [
     "Retorna la colección de discusiones"
     ^ discussions
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> extractAllTextFrom: aDiscussion [
     "Extrae todo el texto relevante de una discusión - VERSIÓN SIMPLIFICADA"
     | parts |
@@ -160,7 +162,7 @@ DiscussionGraph >> extractAllTextFrom: aDiscussion [
     ^ ' ' join: parts
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> extractChatGPTConversationsFrom: aDiscussion into: aStream [
     "Extrae texto de las conversaciones de ChatGPT"
     | chatgptSharings |
@@ -194,7 +196,7 @@ DiscussionGraph >> extractChatGPTConversationsFrom: aDiscussion into: aStream [
     ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> extractCodeFrom: aConversation into: aStream [
     "Extrae código de los bloques de código"
     | listOfCode |
@@ -208,13 +210,13 @@ DiscussionGraph >> extractCodeFrom: aConversation into: aStream [
     ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> fileName [
     "Retorna el nombre del archivo cargado"
     ^ fileName
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> from: aFileName [
     "Lee el archivo JSON y carga las discusiones"
     | fileContent jsonData sources |
@@ -238,7 +240,7 @@ DiscussionGraph >> from: aFileName [
     ^ self
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> gtTechFrequencyFor: aView [
     <gtView>
     ^ aView columnedList
@@ -249,7 +251,7 @@ DiscussionGraph >> gtTechFrequencyFor: aView [
         column: 'Count' text: [ :item | item at: #count ] width: 80
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> gtTechVisualizationFor: aView [
     <gtView>
     ^ aView explicit
@@ -258,20 +260,20 @@ DiscussionGraph >> gtTechVisualizationFor: aView [
         stencil: [ self visualizeTechnologies ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> initialize [
     super initialize.
     discussions := OrderedCollection new.
     fileName := ''
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> repositoryNames [
     "Retorna una colección única de nombres de repositorios"
     ^ (discussions collect: [ :disc | disc at: 'RepoName' ifAbsent: [ 'Unknown' ] ]) asSet
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> technologyMentions [
     "Analiza la frecuencia de menciones de tecnologías específicas - VERSIÓN OPTIMIZADA"
     | technologies results |
@@ -299,7 +301,7 @@ DiscussionGraph >> technologyMentions [
     ^ results
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> technologyMentionsData [
     "Retorna una colección simple con tecnología y conteo"
     | technologies result |
@@ -321,7 +323,7 @@ DiscussionGraph >> technologyMentionsData [
     ^ result sorted: [ :a :b | (a at: #count) > (b at: #count) ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> technologyVisualizationData [
     "Retorna datos para visualización con colores"
     | technologies result colors |
@@ -358,7 +360,7 @@ DiscussionGraph >> technologyVisualizationData [
     ^ result sorted: [ :a :b | (a at: #totalMentions) > (b at: #totalMentions) ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 DiscussionGraph >> visualizeTechnologies [
     "Visualiza tecnologías como rectángulos de colores"
     | container colors yPosition |

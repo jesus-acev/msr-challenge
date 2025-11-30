@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T09:40:47.074499-03:00"
+						"dateAndTimeString" : "2025-10-24T09:41:10.642723-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ZZqlAkH+DQCqpNvxC85gkQ=="
 				},
-				"code" : "file:= 'discussion_sharings.json' asFileReference.\rdiccionario := "
+				"code" : "file:= 'discussion_sharings.json' asFileReference.\rdiccionario := STONJSON fromString: file"
 			},
 			{
 				"__type" : "textSnippet",
@@ -239,48 +239,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T03:04:08.556872-03:00"
+						"dateAndTimeString" : "2025-11-30T01:59:29.335349-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "89R0DUP+DQCYBIeJBi8NEA=="
 				},
-				"code" : "aDiscussionGraph discussionCount.\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T03:04:27.691994-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-10-24T09:34:42.150379-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "OKAmD0P+DQCYG/aRBi8NEA=="
-				},
-				"code" : "\r"
+				"code" : "aDiscussionGraph discussionCount.\n\r"
 			},
 			{
 				"__type" : "textSnippet",
