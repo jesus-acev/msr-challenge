@@ -1,0 +1,175 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:34:31.679-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:59:52.323-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GCAjgkj+DQCWaAVSApxNjw=="
+				},
+				"code" : "repo := FileSystem workingDirectory /'pharo-local' / 'iceberg' / 'NAIST-SE' / 'DevGPT'.\r\rdiccionario := STONJSON fromdil"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:35:26.463-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:35:37.467-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GBBnhUj+DQCWkHS0ApxNjw=="
+				},
+				"code" : "jsonFiles := repo allChildrenMatching: '*.json'.\t"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:35:41.211-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:38:25.173-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eBlIhkj+DQCWnZ/cApxNjw=="
+				},
+				"code" : "models := OrderedCollection new.\r\njsonFiles do: [ :file |\r\n\t[ \r\n\t\tdata := NeoJSONReader fromString: file contents.\r\n\t\tmodel := data at: 'model' ifAbsent: [ 'unknown' ].\r\n\t\tmodels add: model.\r\n\t] on: Error do: [ :ex | Transcript show: 'Error leyendo ', file basename; cr ].\t\r\n].\t"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:36:12.689-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-24T09:36:14.271-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aGooiEj+DQCWqs2/ApxNjw=="
+				},
+				"code" : "counts := (models asBag sortedCounts) asOrderedCollection."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-24T09:23:25.765-03:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-24T09:23:25.765-03:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Pruebas"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "80a40e5a-48fe-0d00-b73a-b8dd051489de"
+	}
+}

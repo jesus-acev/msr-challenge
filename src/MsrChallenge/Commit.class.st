@@ -7,7 +7,7 @@ Class {
 		'author',
 		'chatgptSharings'
 	],
-	#category : #'MsrChallenge-Model'
+	#category : #MsrChallenge
 }
 
 { #category : #'as yet unclassified' }
@@ -71,7 +71,7 @@ Commit >> mentionsTechnologies [
     | msg lower techs result |
     
     message ifNil: [ ^ Dictionary new ].
-
+	
     msg := message asString.
     lower := msg asLowercase.
 
@@ -102,25 +102,25 @@ Commit >> message [    ^ message.
 
 { #category : #'as yet unclassified' }
 Commit >> occurrencesOfTechnology: aString [
-    | lower pattern index count |
-    message ifNil: [ ^ 0 ].
-
-    lower := message asLowercase.
-    pattern := aString asLowercase.
-
-    index := 1.
-    count := 0.
-
-    [ 
-        index := lower findString: pattern startingAt: index.
-        index > 0
-    ] whileTrue: [
-        count := count + 1.
-        index := index + pattern size.  "avanzar para evitar contar la misma aparición"
-    ].
-
-    ^ count
-
+	    | lower pattern index count |
+	    message ifNil: [ ^ 0 ].
+	
+	    lower := message asLowercase.
+	    pattern := aString asLowercase.
+	
+	    index := 1.
+	    count := 0.
+	
+	    [ 
+	        index := lower findString: pattern startingAt: index.
+	        index > 0
+	    ] whileTrue: [
+	        count := count + 1.
+	        index := index + pattern size.  "avanzar para evitar contar la misma aparición"
+	    ].
+	
+	    ^ count
+	
 ]
 
 { #category : #'as yet unclassified' }
